@@ -1,0 +1,2 @@
+#!/bin/bash
+frida -U -f "$1" -l _agent.js --no-pause
